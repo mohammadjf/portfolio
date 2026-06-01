@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+
+:root {
+  --page-bg: #090b10;
+  --terminal-bg: #0d1117;
+  --titlebar-bg: #151b23;
+  --panel-bg: rgba(22, 27, 34, 0.78);
+  --terminal-border: #30363d;
+  --foreground: #d6deeb;
+  --muted: #8b949e;
+  --green: #7ee787;
+  --cyan: #79c0ff;
+  --yellow: #f2cc60;
+  font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(121, 192, 255, 0.12), transparent 34%),
+    linear-gradient(135deg, #07090d 0%, #0b1118 48%, #11140f 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page-bg);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  color: var(--terminal-bg);
+  background: var(--green);
+}
