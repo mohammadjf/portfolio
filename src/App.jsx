@@ -8,7 +8,7 @@ const profile = {
   email: 'mohammadlngs@gmail.com',
   resume: './resume.pdf',
   about:
-    'I build clean, fast, human-friendly web interfaces. This portfolio is intentionally terminal-shaped because I like tools that feel direct, honest, and a little bit alive.',
+    'I am a fullstack developer who builds practical web applications from database and API design to clean, responsive user interfaces. I like working across the whole stack and turning rough ideas into reliable, usable software.',
   socials: [
     { label: 'GitHub', value: 'github.com/mohammadjf', href: 'https://github.com/mohammadjf' },
     { label: 'LinkedIn', value: 'linkedin.com/in/lingeston', href: 'https://linkedin.com/in/lingeston' },
